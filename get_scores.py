@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 class GetScores():
-    def __init__(self, model_dir="runs\\train180\\weights\\best.pt"):
+    def __init__(self, model_dir="weights.pt"):
         self.model_dir = model_dir
 
         self.class_names = {0: '20', 1: '3', 2: '11', 3: '6', 4: 'dart'}
