@@ -203,7 +203,7 @@ class ScoreViewer:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--images', default='data/darts/images/small_sample')
+    ap.add_argument('--images', default='data/darts/images/small_sample/test')
     ap.add_argument('--weights', default='weights.pt')
     ap.add_argument('--conf', type=float, default=0.5)
     ap.add_argument('--display-size', type=int, default=560)
